@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    font-family: SF Pro Display;
+}
+
+y{
+    background-image: url("Group.png") ;
+}
+
+body{
+    background: #1F1F1F;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.nav-button{
+    width: 230px;
+    height: 48px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    background: #1F1F1F;
+    line-height: 48px;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.studying{
+    color: #FFFFFF;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 20px;
+
+}
+
+
+.studying2{
+    color: #FFFFFF;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+footer{
+    background-color:#58FF87;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 54px;
+    color: white;
+    text-align: center;
+    height: 40%;
+    padding: 10px;
+}
+
+.main-content{
+    display: flex;
+    align-items: baseline;
+}
+
+.img1{
+    height: 630px;
+    width: 900px;
+    margin: 10px;
+}
+
+.img2{
+    height: 630px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+
+}
+
+.main-content-2{
+    align-content: center;
+    padding: 20px;
+}
+
+.login-info{
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 110px;
+    text-align: center;
+}
+
+.login-component{
+    display: block;
+    width: 400px;
+    height: 40px;
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+#login{
+    background-color: #00CAE5;
+    border-radius: 2px;
+    border: none;
+}
+
+#welcome{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.leaderboard{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 110px;
+    text-align: center;
+}
+
+.player{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 4px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.position{
+    width: 80px;
+    text-align: center;
+}
+
+.leaderboard-username{
+    width: 250px;
+    text-align: center;
+    
+}
+
+.hours{
+    width: 120px;
+    text-align: center;
+}
+
+#top-row{
+    background: #CB13DB;
+    font-weight: 900;
+}
